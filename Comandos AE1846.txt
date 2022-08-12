@@ -1,0 +1,6 @@
+
+
+EJ1:
+$git clone https://github.com/franio68/reactapp
+$ git add .
+$ git commit -m 'clonado de la url'
