@@ -1,6 +1,68 @@
-
-
 EJ1:
 $git clone https://github.com/franio68/reactapp
 $ git add .
 $ git commit -m 'clonado de la url'
+
+EJ2:
+
+(eliminacion de componentes inecesarios)
+$git add .
+$git commit -m 'eliminacion de archivos innecesarios'
+
+EJ3:
+
+(creacion de las carpetas pages y components)
+$git add .
+$git commit -m 'creacion de las carpetas pages y components'
+
+EJ4:
+(ordenar componentes y paginas segun su tipo)
+$git add .
+$git commit -m 'ordenado de componentes en diferentes carpetas'
+
+EJ5:
+(Añadir frase al array de App.jsx)
+$git add .
+$git commit -m 'Añadir frase al array de App.jsx'
+
+EJ6:
+(creacion de la rama br-componentes para trabajar en estos)
+$git branch br-componentes
+$git switch br-componentes
+
+EJ7:
+(Modificacion en ElementoLista.jsx)
+$git add .
+$ git commit -m 'esquema creado en ElementoLista.jsx'
+(Modificacion en listado.jsx)
+$git add .
+$ git commit -m 'modificacion del componente listado para evitar conflictos'
+
+
+EJ8:
+(eliminacion del componente ElementoLista.jsx)
+$git add .
+
+EJ9:
+(Modificacion del componente Listado)
+$git add .
+
+EJ10:
+(modificar elemento Listado y restauración de ElementoLista)
+$ git restore --staged src/components/ElementoLista.jsx
+$ git restore src/components/ElementoLista.jsx
+$ git commit -m 'modificaciond de elemento Listado, eliminacion ElementoLista y restauracion'
+
+EJ11:
+(Cambio de rama y fusion de los cambios realizados en la anterior)
+$git switch main
+$git merge br-componentes
+
+EJ12:
+(Eliminación de la rama utilzada para components)
+$ git branch -D br-componentes
+
+EJ13:
+$ git remote add origin https://github.com/NahuelM4C/AE1846
+$ git branch -M master
+$ git push -u origin master
